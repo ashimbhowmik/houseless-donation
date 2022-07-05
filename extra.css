@@ -16,20 +16,17 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
-  opacity: 0.9;
 }
 .bannar-head {
   text-align: center;
   padding-top: 90px;
 }
 .bannar-head .bannar-tag {
-  opacity: 1;
   font-size: 60px;
   color: whitesmoke;
   padding-top: 20px;
 }
 .bannar-head .peragraph {
-  opacity: 1;
   color: whitesmoke;
   width: 50%;
   margin: 0 auto;
@@ -49,12 +46,6 @@
   margin: 0 auto;
   cursor: pointer;
 }
-.donate:hover {
-  background-color: rgb(255, 68, 0);
-  font-size: 19px;
-  width: 138px;
-}
-
 /* Header part end here */
 
 .bannar-name {
@@ -73,7 +64,6 @@
   margin-bottom: 30px;
   padding-bottom: 30px;
   background-color: aliceblue;
-  box-shadow: 1px 0px 5px 2px rgb(120, 120, 120);
 }
 .peragraph2 {
   font-size: 18px;
@@ -96,14 +86,6 @@
   font-size: 24px;
   padding: 30px;
   background-color: rgba(245, 245, 245, 0.781);
-  box-shadow: 1px 0px 3px 2px rgb(120, 120, 120);
-  cursor: pointer;
-}
-.list li:hover {
-  margin-top: 0px;
-  margin-bottom: 20px;
-  border: 1px solid red;
-  background-color: rgb(255, 183, 183);
 }
 #list1 {
   margin-top: 30px;
@@ -111,19 +93,10 @@
   font-size: 24px;
   padding: 30px;
   background-color: rgb(255, 183, 183);
-  box-shadow: 1px 0px 3px 2px rgb(120, 120, 120);
-  cursor: pointer;
-}
-#list1:hover {
-  margin-top: 0px;
-  margin-bottom: 20px;
-  border: 1px solid red;
-  background-color: rgb(255, 183, 183);
 }
 .peragraph3 {
   margin-top: 40px;
   font-size: 20px;
-  opacity: 0.4;
   margin-bottom: 10px;
 }
 .line {
@@ -132,6 +105,5 @@
   height: 3px;
   background-color: black;
   margin-top: 10px;
-  opacity: 0.5;
   margin-bottom: 30px;
 }
