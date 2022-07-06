@@ -15,8 +15,8 @@
   background-image: url(cover.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
-  opacity: 0.9;
+  height: 770px;
+  padding-top: 170px;
 }
 .bannar-head {
   text-align: center;
@@ -24,7 +24,7 @@
 }
 .bannar-head .bannar-tag {
   opacity: 1;
-  font-size: 60px;
+  font-size: 70px;
   color: whitesmoke;
   padding-top: 20px;
 }
@@ -318,4 +318,57 @@
 .btn-3:hover {
   background-color: rgb(255, 68, 0);
   font-size: 15px;
+}
+
+/* Help Center start here */
+.name {
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+.help-Center {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 60px;
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 35px;
+}
+.help-line {
+  width: 40%;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-left: 50px;
+  box-shadow: 1px 0px 6px 2px rgb(120, 120, 120);
+  cursor: pointer;
+}
+.help-line:hover {
+  background-color: rgb(58, 58, 58);
+  color: whitesmoke;
+}
+.center .cloth {
+  height: 150px;
+  width: 150px;
+}
+.help-line h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: red;
+}
+
+.center {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 80px;
+}
+.center img {
+  margin-right: 100px;
+}
+.list-tag li {
+  margin-right: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 16px;
 }
