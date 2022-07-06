@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  font-family: "Gentium Book Plus", serif;
+}
 .bannar {
   background-color: #f1f3f4;
   padding-bottom: 30px;
