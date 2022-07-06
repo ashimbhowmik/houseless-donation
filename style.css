@@ -73,10 +73,11 @@ body {
   margin: 0 auto;
   text-align: center;
   margin-top: 30px;
+  border-radius: 12px;
   margin-bottom: 30px;
   padding-bottom: 30px;
   background-color: aliceblue;
-  box-shadow: 1px 0px 5px 2px rgb(120, 120, 120);
+  box-shadow: 1px 0px 6px 2px rgb(120, 120, 120);
 }
 .peragraph2 {
   font-size: 18px;
@@ -101,6 +102,7 @@ body {
   height: 100px;
   width: 110px;
   text-align: center;
+  border-radius: 10px;
   background-color: rgba(245, 245, 245, 0.781);
   box-shadow: 1px 0px 3px 2px rgb(120, 120, 120);
   cursor: pointer;
@@ -167,12 +169,12 @@ body {
   margin: 0 auto;
 }
 .donation-body1 {
-  box-shadow: 1px 0px 6px 2px rgb(120, 120, 120);
+  box-shadow: 1px 0px 7px 2px rgb(120, 120, 120);
   margin: 25px;
   padding: 35px 20px;
-  height: 350px;
-  width: 350px;
-  background-color: rgb(203, 255, 203);
+  height: 330px;
+  border-radius: 15px;
+  background-color: rgb(255, 190, 255);
 }
 .donation-body3 h1 {
   margin-top: 20px;
@@ -183,7 +185,7 @@ body {
   background-color: rgb(254, 203, 203);
 }
 .card2 {
-  background-color: rgb(255, 234, 196);
+  background-color: rgb(211, 229, 255);
 }
 .donation-body3 p {
   font-size: 16px;
@@ -265,8 +267,10 @@ body {
   justify-content: space-evenly;
   padding-top: 20px;
   padding-left: 50px;
-  box-shadow: 1px 0px 6px 2px rgb(120, 120, 120);
+  border-radius: 15px;
+  box-shadow: 1px 0px 7px 2px rgb(120, 120, 120);
   cursor: pointer;
+  height: 300px;
 }
 .help-line:hover {
   background-color: rgb(69, 69, 69);
