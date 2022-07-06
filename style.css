@@ -18,7 +18,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 770px;
-  padding-top: 170px;
+  padding-top: 120px;
 }
 .bannar-head {
   text-align: center;
@@ -97,6 +97,9 @@ body {
   margin-top: 30px;
   font-size: 24px;
   padding: 30px;
+  height: 100px;
+  width: 110px;
+  text-align: center;
   background-color: rgba(245, 245, 245, 0.781);
   box-shadow: 1px 0px 3px 2px rgb(120, 120, 120);
   cursor: pointer;
@@ -138,6 +141,8 @@ body {
   margin-bottom: 30px;
 }
 
+/* Donat part end here */
+
 /* Donate Plan Start Here */
 
 .donation-heading {
@@ -165,6 +170,8 @@ body {
   box-shadow: 1px 0px 6px 2px rgb(120, 120, 120);
   margin: 25px;
   padding: 35px 20px;
+  height: 350px;
+  width: 350px;
   background-color: rgb(203, 255, 203);
 }
 .donation-body3 h1 {
@@ -182,6 +189,11 @@ body {
   font-size: 16px;
   text-align: justify;
 }
+
+/* Donation Part end here */
+
+/* News Part Start here */
+
 .helpless {
   display: flex;
   width: 70%;
@@ -231,41 +243,66 @@ body {
   margin-right: 200px;
 }
 
-.icon {
-  background-color: #07010a;
+/* News Part end here */
+
+/* Help Line start here */
+
+.name {
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+.help-Center {
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
-  height: 80px;
-  padding-right: 300px;
-  padding-left: 300px;
-  padding-top: 50px;
+  padding-top: 60px;
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 35px;
 }
-.icon a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 22px;
+.help-line {
+  width: 40%;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-left: 50px;
+  box-shadow: 1px 0px 6px 2px rgb(120, 120, 120);
+  cursor: pointer;
 }
-.icon a:hover {
-  color: #fec53a;
-  background: none;
-  font-size: 24px;
+.help-line:hover {
+  background-color: rgb(58, 58, 58);
+  color: whitesmoke;
+}
+.center .cloth {
+  height: 150px;
+  width: 150px;
+}
+.help-line h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: red;
 }
 
-.footer-bottom {
-  width: 100%;
-  height: 100px;
-  background-color: #07010a;
-  color: #fff;
+.center {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 80px;
 }
-.footer-bottom span {
-  color: #fec53a;
+.center img {
+  margin-right: 100px;
 }
+.list-tag li {
+  margin-right: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/*Help Line end here */
 
 /* Get My Updates start here  */
+
 .update {
   text-align: center;
   width: 50%;
@@ -322,55 +359,42 @@ body {
   font-size: 15px;
 }
 
-/* Help Center start here */
-.name {
-  margin-top: 45px;
-  margin-bottom: 20px;
-}
-.help-Center {
+/* Get My Updates end here  */
+
+/* Footer part start here */
+
+.icon {
+  background-color: #07010a;
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
-  padding-top: 60px;
-  width: 80%;
-  margin: 0 auto;
-  padding-left: 35px;
+  height: 80px;
+  padding-right: 300px;
+  padding-left: 300px;
+  padding-top: 50px;
 }
-.help-line {
-  width: 40%;
-  justify-content: space-evenly;
-  padding-top: 20px;
-  padding-left: 50px;
-  box-shadow: 1px 0px 6px 2px rgb(120, 120, 120);
-  cursor: pointer;
+.icon a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
 }
-.help-line:hover {
-  background-color: rgb(58, 58, 58);
-  color: whitesmoke;
-}
-.center .cloth {
-  height: 150px;
-  width: 150px;
-}
-.help-line h1 {
-  font-size: 30px;
-  font-weight: 700;
-  color: red;
+.icon a:hover {
+  color: #fec53a;
+  background: none;
+  font-size: 24px;
 }
 
-.center {
+.footer-bottom {
+  width: 100%;
+  height: 100px;
+  background-color: #07010a;
+  color: #fff;
   display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-left: 80px;
+  align-items: center;
+  justify-content: center;
 }
-.center img {
-  margin-right: 100px;
+.footer-bottom span {
+  color: #fec53a;
 }
-.list-tag li {
-  margin-right: 300px;
-  width: 100%;
-  margin-bottom: 10px;
-  font-size: 16px;
-}
+
+/* footer part end here */
