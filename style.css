@@ -43,6 +43,7 @@ body {
   border-radius: 10px;
   padding: 10px;
   background-color: rgb(250, 11, 111);
+  border: 1px solid white;
   opacity: 1;
   color: whitesmoke;
   font-weight: 600;
@@ -207,29 +208,30 @@ body {
   font-size: 50px;
   margin-bottom: 10px;
 }
-.help-1 p {
-  font-size: 20px;
+.help-4 {
+  font-size: 22px;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 .btn {
   margin-top: 40px;
+  border: 1px solid rgb(255, 255, 255);
 }
 .btn p {
   border-radius: 10px;
-  width: 202px;
   font-size: 20px;
-  padding: 15px;
+  padding: 18px;
   text-align: center;
   background-color: rgb(250, 11, 111);
   color: whitesmoke;
   font-weight: 600;
   cursor: pointer;
+  width: 230px;
 }
 .btn p:hover {
   background-color: rgb(255, 68, 0);
   font-size: 19px;
-  width: 200px;
+  width: 229px;
 }
 .help-2 {
   width: 50%;
