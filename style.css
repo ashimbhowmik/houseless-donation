@@ -127,18 +127,22 @@ body {
   border: 1px solid red;
   background-color: rgb(255, 183, 183);
 }
-.peragraph3 {
-  margin-top: 40px;
-  font-size: 20px;
-  opacity: 0.4;
-  margin-bottom: 10px;
+.btn-5 {
+  border: 1px solid aliceblue;
+  height: 13px;
+  width: 690px;
+  font-size: 18px;
+  padding: 14px;
+  background-color: aliceblue;
+  text-align: center;
+  margin-top: 50px;
 }
+
 .line {
   width: 65%;
   margin: 0 auto;
   height: 3px;
   background-color: black;
-  margin-top: 10px;
   opacity: 0.5;
   margin-bottom: 30px;
 }
